@@ -83,7 +83,10 @@ margin: 25px 0;
 `;
 
 const  MainContainer = styled.div`
-  margin: 0 20px 0 60px;
+  
+  @media(min-width: 768px) {
+    margin: 0 20px 0 20px;
+}
 `;
 
 export default HomeMainSection;
